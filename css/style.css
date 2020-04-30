@@ -1,0 +1,151 @@
+td{
+    word-break: break-all;
+}
+html{
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+}
+@font-face{
+    font-family: 'Open-Sans';
+    src: url('../font/opensans-regular.woff2') format('woff2'),
+         url('../font/opensans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Product-Sans';
+    src: url('../font/product_sans_regular.woff2') format('woff2'),
+         url('../font/product_sans_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.ps{
+    font-family: 'Product-Sans';
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+}
+p{
+    margin: 0;
+}
+#overlay{
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+  #overlay2{
+    position: absolute;
+    z-index: 0;
+    margin: 0;  
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+ 
+  }
+  #kiri:hover #overlay{
+    background-color: rgba(37, 80, 199, 0.479);
+    transition: 0.2s;
+   
+  }
+  #kiri:hover .posisi{
+    background-color: rgba(25, 20, 71, 0.87);
+    transition: 0.2s;
+  }
+  #kanan:hover .posisi{
+    background-color: rgba(25, 20, 71, 0.87);
+    transition: 0.2s;
+  }
+  #kanan:hover #overlay2 {
+    background-color: rgba(37, 80, 199, 0.479);
+    transition: 0.2s;
+  }
+  .posisi{
+      position: absolute;
+      z-index: 1;
+      background-color: black;
+      border: 0;
+      padding: 10px;
+      width:200px;
+      border-radius: 30px;
+      margin-top: 300px;
+      margin-left: 250px;
+  }
+  .zindex{
+      z-index: 1;
+  }
+  .fontheader3{
+    font-size: 40pt;
+  }
+  .fontheader{
+      font-size: 30pt;
+  }
+  .judul{
+      margin-left: 400px;
+  }
+  .gambar{
+      margin-left: 575px;
+      margin-top: 75px;
+  }
+  .divlogin{
+      background-color: white;
+      position: absolute;
+      padding: 30px;
+      border-radius: 35px;
+      margin-left: 500px;
+      margin-top: 140px;
+      width: 400px;
+  }
+  .gambarprofil{
+    width: 13%;
+    border-radius: 50%;
+  }
+  .fontheader2{
+    font-size: 16pt;
+  }
+  .logo{
+      width: 13%;
+  }
+  .icon{
+      width: 6%;
+  }
+  .containdash{
+      margin: 20px;
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow:1px 3px 4px rgba(0, 0, 0, .5);;
+  }
+  .containdash2{
+    margin: 20px;
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow:1px 3px 4px rgba(0, 0, 0, .5);;
+}
+.containdash3{
+    margin: 20px;
+    width: 93% !important;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow:1px 3px 4px rgba(0, 0, 0, .5);;
+}
+.pointer{
+    cursor: pointer;
+}
